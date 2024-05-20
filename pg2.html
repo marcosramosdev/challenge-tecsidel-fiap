@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pg2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</head>
+<body>
+    <div class="box">
+      <nav class="menu-lateral">
+          <div class="btn-expandir">
+              <i class="bi bi-list"></i>
+          </div>
+          <ul>
+              <li class="item-menu">
+                  <a href="#">
+                      <span class="icon"><i class="bi bi-house-door"></i></span>
+                      <span class="txt-link">Home</span>
+                  </a>
+              </li>
+              <li class="item-menu">
+                  <a href="#">
+                      <span class="icon"><i class="bi bi-columns-gap"></i></span>
+                      <span class="txt-link">Dashboard</span>
+                  </a>
+              </li>
+              <li class="item-menu">
+                  <a href="#">
+                      <span class="icon"><i class="bi bi-receipt"></i></span>
+                      <span class="txt-link">Recibos</span>
+                  </a>
+              </li>
+              <li class="item-menu">
+                  <a href="#">
+                      <span class="icon"><i class="bi bi-cash-stack"></i></span>
+                      <span class="txt-link">Pagamentos</span>
+                  </a>
+              </li>
+              <li class="item-menu">
+                  <a href="#">
+                      <span class="icon"><i class="bi bi-map"></i></span>
+                      <span class="txt-link">Mapa Pedágio</span>
+                  </a>
+              </li>
+              <li class="item-menu">
+                  <a href="#">
+                      <span class="icon"><i class="bi bi-chat-left"></i></span>
+                      <span class="txt-link">Mensagens</span>
+                  </a>
+              </li>
+              <li class="item-menu">
+                  <a href="#">
+                      <span class="icon"><i class="bi bi-gear"></i></span>
+                      <span class="txt-link">Configurações</span>
+                  </a>
+              </li>
+              <li class="item-menu">
+                  <a href="#">
+                      <span class="icon"><i class="bi bi-person-circle"></i></span>
+                      <span class="txt-link">Sua conta</span>
+                  </a>
+              </li>
+          </ul>
+          
+      </nav>
+      <div class="grid-2-4">
+        <header class="header">
+          <input type="text" placeholder="digite sua busca" class="busca">
+          <h2>Free Flow</h2>
+          <div class="dados-usuario">
+            <div>
+              <p class="dados-usuario-nome">Marta Silva</p>
+              <p class="dados-usuario-email">marta.silva@freeflow.com</p>
+            </div>
+            <a href="#"><ion-icon name="arrow-down"></ion-icon></a>
+          </div>
+        </header>
+
+        <div class="item item1">
+                <table class="table table-hover table-info">
+
+                  <div class="table-header">
+                    <p class="table-title">Dados últimos Clientes</p>
+                    <div>
+                      <button type="button" class="btn btn-primary">Filtar <ion-icon name="funnel"></ion-icon></button>
+
+                      <button type="button" class="btn btn-success">Download <ion-icon name="download"></ion-icon></button>
+
+                    </div>
+                  </div>
+
+                    <thead>
+                      <tr>
+                        <th scope="col">Placa</th>
+                        <th scope="col">Telefone</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Data & hora</th>
+                        <th scope="col">Valor Unit</th>
+                        <th scope="col">Status Notificação</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">AAA123</th>
+                        <td>(11)912345678</td>
+                        <td>ms@gmail.com</td>
+                        <td>12/06/2024 15h23m5s</td>
+                        <td>R$5,50</td>
+                        <td class="status">Em análise</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">BBB123</th>
+                        <td>(11)912345679</td>
+                        <td>ts@gmail.com</td>
+                        <td>12/06/2024 15h22m5s</td>
+                        <td>R$5,50</td>
+                        <td class="status">SMS enviado</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">CCC123</th>
+                        <td>(21)912445678</td>
+                        <td>tt@gmail.com</td>
+                        <td>12/06/2024 15h22m5s</td>
+                        <td>R$6,50</td>
+                        <td class="status">Pago</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">DDD123</th>
+                        <td>(21)912994567</td>
+                        <td>ss@gmail.com</td>
+                        <td>12/06/2024 15h22m5s</td>
+                        <td>R$7,20</td>
+                        <td class="status">Em análise</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">KKK123</th>
+                        <td>(21)912345679</td>
+                        <td>ss@gmail.com</td>
+                        <td>12/06/2024 15h22m5s</td>
+                        <td>R$7,20</td>
+                        <td class="status">Pago</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">FFFK123</th>
+                        <td>(21)912345679</td>
+                        <td>ss@gmail.com</td>
+                        <td>12/06/2024 15h22m5s</td>
+                        <td>R$7,20</td>
+                        <td class="status">SMS Enviado</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        <div class="item item2">
+          <table class="table table-hover table-info">
+
+            <div class="table-header">
+              <p class="table-title">Free Flow Análise</p>
+              <div>
+                <button type="button" class="btn btn-primary">Filtar <ion-icon name="funnel"></ion-icon></button>
+
+                <button type="button" class="btn btn-success">Download <ion-icon name="download"></ion-icon></button>
+
+              </div>
+            </div>
+
+              <thead>
+                <tr>
+                  <th scope="col">Código</th>
+                  <th scope="col">Tipo Cliente</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Compartilhamento</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">AAA123</th>
+                  <td>Free Flow</td>
+                  <td>Cadastrado</td>
+                  <td>Não</td>
+                </tr>
+                <tr>
+                  <th scope="row">BBB123</th>
+                  <td>Sem Parar</td>
+                  <td>Terceiro</td>
+                  <td>Não</td>
+                </tr>
+                <tr>
+                  <th scope="row">AAA001</th>
+                  <td>Não Cliente</td>
+                  <td>Envio Convite</td>
+                  <td>Aguardando aceite</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div class="item item3">
+          <img src="mapa-brasil.webp" alt="">
+          <table class="table table-hover table-info">
+            <div class="table-header">
+              <p class="table-title">Mapa de Equipamentos</p>
+              <div>
+                <button type="button" class="btn btn-primary">Filtar <ion-icon name="funnel"></ion-icon></button>
+
+              </div>
+            </div>
+
+              <thead>
+                <tr>
+                  <th scope="col">Código</th>
+                  <th scope="col">Endereço</th>
+                  <th scope="col">Volume diário</th>
+                  <th scope="col">Status praça</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">SP001</th>
+                  <td>BR116 KM 204+200</td>
+                  <td>500</td>
+                  <td>Operante</td>
+                </tr>
+                <tr>
+                  <th scope="row">SP002</th>
+                  <td>BR116 KM 209+400</td>
+                  <td>608</td>
+                  <td>Operante com atraso</td>
+                </tr>
+                <tr>
+                  <th scope="row">SP003</th>
+                  <td>BR116 KM 204+200</td>
+                  <td>500</td>
+                  <td>Operante</td>
+                </tr>
+                </tr>
+                <tr>
+            
+              </tbody>
+            </table>
+        </div>
+        <div class="item item4">
+          <table class="table table-hover table-info">
+
+            <div class="table-header">
+              <p class="table-title">Análise Motorista</p>
+              <div>
+                <button type="button" class="btn btn-primary">Filtar <ion-icon name="funnel"></ion-icon></button>
+
+                <button type="button" class="btn btn-success">Download <ion-icon name="download"></ion-icon></button>
+
+              </div>
+            </div>
+
+              <thead>
+                <tr>
+                  <th scope="col">Cód Veículo</th>
+                  <th scope="col">Tipo Veículo</th>
+                  <th scope="col">Modelo Carro</th>
+                  <th scope="col">Ano</th>
+                  <th scope="col">Cor</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">0001AB</th>
+                  <td>Passeio</td>
+                  <td>Volkswagen Gol</td>
+                  <td>2010</td>
+                  <td>Preto</td>
+                </tr>
+                <tr>
+                  <th scope="row">0002BC</th>
+                  <td>Passeio</td>
+                  <td>Fiat Uno</td>
+                  <td>2004</td>
+                  <td>Azul</td>
+                </tr>
+                <tr>
+                  <th scope="row">0003BD</th>
+                  <td>Passeio</td>
+                  <td>Chevrolet Onix</td>
+                  <td>2020</td>
+                  <td>Prata</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div class="item item5-6">
+          
+          <div class="item5">
+            <img src="./histogram.png" class="histograma-image" alt="">
+          </div>
+
+          <div class="item6">
+            <img src="./Calendar-cuate.png" class="calendar-image" alt="Calendario">
+
+          </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
